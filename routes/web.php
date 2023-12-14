@@ -65,6 +65,9 @@ Route::get('/perkara-ecourt', [PerkaraEcourtController::class, 'index'])->name('
 Route::get('/perkara-diska', [DispensasiKawinController::class, 'index'])->name('perkara-diska.index');
 Route::get('/jadwal-sidang', [JadwalSidangController::class, 'index'])->name('jadwal-sidang.index');
 Route::get('/dirput', [DirputController::class, 'index'])->name('dirput.index');
+
+Route::get('/export-lipa1', [PerkaraLipa1Controller::class, 'exportLipa1'])->name('export-lipa1');
+
 // Route::get('/jadwal-sidang', 'JadwalSidangController@index')->name('jadwal-sidang.index');
 // Route::get('/perkara-ecourt', 'PerkaraEcourtController')->name('perkara-ecourt.index');
 

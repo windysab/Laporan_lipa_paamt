@@ -72,6 +72,8 @@
                                 </div>
 
                                 <button class="btn btn-primary mb-2" type="submit" name="btn">Tampilkan</button>
+
+                                <a href="/export-lipa1" class="btn btn-danger mb-2 ml-2">Export to Exel</a>
                             </form>
 
                             @if(isset($request))
